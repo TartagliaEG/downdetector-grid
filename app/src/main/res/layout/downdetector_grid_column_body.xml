@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:gravity="center_horizontal"
+  android:paddingEnd="1dp"
+  android:paddingLeft="1dp"
+  android:paddingRight="1dp"
+  android:paddingStart="1dp">
+
+  <TextView
+    android:id="@+id/downdetectorGridItem"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/downdetector_grid_column_shape"
+    android:minHeight="24sp"
+    android:minWidth="24sp"
+    android:padding="5dp"
+    android:textAlignment="center"
+    android:textColor="@color/downDetectorGridItemTextColor"
+    tools:text="10" />
+
+</LinearLayout>

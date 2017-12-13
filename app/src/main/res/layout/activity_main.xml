@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context="tartagliaeg.com.br.lightproject.MainActivity">
+
+  <tartagliaeg.com.br.lightproject.DownDetectorGrid
+    android:id="@+id/downdetectorGridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical"
+    app:enable_header_col="true"
+    app:enable_header_row="true"
+    app:even_lines_color="#ddd"
+    app:row_vertical_padding="2dp" />
+
+</android.support.constraint.ConstraintLayout>

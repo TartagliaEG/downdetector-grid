@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="DownDetectorGrid">
+    <attr name="odd_lines_color" format="color" />
+    <attr name="even_lines_color" format="color" />
+    <attr name="start_color_alternation_at_line" format="integer" />
+    <attr name="columns_background_color" format="integer" />
+    <attr name="columns_text_color" format="integer" />
+    <attr name="row_vertical_padding" format="dimension" />
+    <attr name="enable_header_col" format="boolean" />
+    <attr name="enable_header_row" format="boolean" />
+  </declare-styleable>
+
+</resources>
